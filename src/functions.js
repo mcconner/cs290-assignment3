@@ -13,7 +13,9 @@
 */
 
 //your code here
-
+function uselessFunction() {
+    return NULL
+}
 //end your code
 
 var bar = 'not a function';
