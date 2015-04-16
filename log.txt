@@ -1,1 +1,7 @@
-You log goes in this  file.
+Start: Wed, 15 Apr 2015 18:30:00 -0700
+End: Wed, 15 Apr 2015 22:30:20 -0700
+Tasks: During this time I worked on the bar and parseGit functions. I was able to get the bar function to work, but I was stuck on parseGit.
+
+Start: Thur, 16 Apr 2015 08:30:00 -0700
+End: Thur, 16 Apr 2015 09:09:41 -0700
+Tasks: I worked more on the parseGit function. It is working correctly when I test it in a web browser but it does not pass the tests on the testing template.
