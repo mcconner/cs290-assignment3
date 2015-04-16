@@ -32,6 +32,20 @@ var barType = typeof bar;
 */
 
 //your code here
+var doubleArray = new Array();
+bar = function(doubleArray) {
+  var i;
+    
+  for (i=0; i<doubleArray.length; i++) {
+      if (isNaN(doubleArray[i])){
+        return false;
+      }
+      else{
+      doubleArray[i] = doubleArray[i] *2;
+      }
+  }
+  return true;
+}
 
 //end your code
 
@@ -68,5 +82,34 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit(logArray) {
+  var i;
+//document.write(logArray.length);
+  for (i = 0; i<logArray.length; i++) {
+
+var strToParse = logArray[i];
+//document.write(strToParse + "<br />");
+var findString = strToParse.indexOf(" ");
+//document.write(findString + "<br />");
+//document.write(findString - 1 + "<br />");
+var hashVal= strToParse.substr(0, strToParse.indexOf(' ')); 
+//document.write(hashVal + "<br />");
+strToParse = strToParse.substr(findString, strToParse.length);
+//document.write(strToParse + "<br />");
+var dateVal = strToParse.substr(0, strToParse.indexOf('\"'));
+//document.write(dateVal + "<br />");
+findString = strToParse.indexOf('\"');
+var msgVal = strToParse.substr(findString, strToParse.length);
+//document.write(msgVal + "<br />");
+
+logArray[i] = new GitLog(hashVal, dateVal, msgVal);
+
+    //document.write(
+logArray[i].hash + " " + logArray[i].date + " " + logArray[i].message;
+	//document.write("\n");
+	//document.write("<br />");
+  }
+  return 0;
+}
 
 //end your code
