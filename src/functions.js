@@ -83,6 +83,8 @@ function GitLog(hash, date, message) {
 
 //your code here
 function parseGit(logArray) {
+  var parsedLog;
+  var array2 = new Array();
   var i;
 //document.write(logArray.length);
   for (i = 0; i<logArray.length; i++) {
@@ -100,16 +102,20 @@ var dateVal = strToParse.substr(0, strToParse.indexOf('\"'));
 //document.write(dateVal + "<br />");
 findString = strToParse.indexOf('\"');
 var msgVal = strToParse.substr(findString, strToParse.length);
+msgVal = msgVal.replace('"','');
+msgVal = msgVal.replace('"','');
 //document.write(msgVal + "<br />");
 
-logArray[i] = new GitLog(hashVal, dateVal, msgVal);
+parsedLog = new GitLog(hashVal, new Date(dateVal), msgVal);
+array2.push(parsedLog);
+//logArray[i] = new GitLog(hashVal, dateVal, msgVal);
 
     //document.write(
-logArray[i].hash + " " + logArray[i].date + " " + logArray[i].message;
+//logArray[i].hash + " " + logArray[i].date + " " + logArray[i].message;
 	//document.write("\n");
 	//document.write("<br />");
   }
-  return 0;
+  return array2;
 }
 
 //end your code
