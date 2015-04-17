@@ -1,3 +1,7 @@
+Start: Tue, 14 Apr 2015 17:30:00 -0700
+End: Tue, 14 Apr 2015 18:30:00 -0700
+Tasks: During this period I spent time going over the requirements of the assignment and drawing out how I think the parseGit function should work.
+
 Start: Wed, 15 Apr 2015 18:30:00 -0700
 End: Wed, 15 Apr 2015 22:30:20 -0700
 Tasks: During this time I worked on the bar and parseGit functions. I was able to get the bar function to work, but I was stuck on parseGit.
