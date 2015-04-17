@@ -14,7 +14,7 @@
 
 //your code here
 function uselessFunction() {
-    return NULL
+    return null;
 }
 //end your code
 
