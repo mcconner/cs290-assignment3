@@ -5,3 +5,15 @@ Tasks: During this time I worked on the bar and parseGit functions. I was able t
 Start: Thur, 16 Apr 2015 08:30:00 -0700
 End: Thur, 16 Apr 2015 09:09:41 -0700
 Tasks: I worked more on the parseGit function. It is working correctly when I test it in a web browser but it does not pass the tests on the testing template.
+
+Start: Thur, 16 Apr 2015 18:30:00 -0700
+End: Thur, 16 Apr 2015 18:46:16 -0700
+Tasks: I started working on the objects.js file. I created an object literal.
+
+Start: Thur, 16 Apr 2015 18:46:16 -0700
+End: Thur, 16 Apr 2015 19:45:51 -0700
+Tasks: After getting feedback from my instructor about the parseGit function, I began working on it again. It now passes all tests.
+
+Start: Thur, 16 Apr 2015 20:28:16 -0700
+End: Thur, 16 Apr 2015 21:28:17 -0700
+Tasks: I went back to the objects.js file and began working on the MessageLog functions more. I am still working on the logMessage method but I have made a lot of progress.
