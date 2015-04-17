@@ -10,14 +10,23 @@
 
 function returnObjectLiteral() {
   //your code here
-  var food = {
+  
+//var food = {
+//    type: 'Goldfish',
+//    brand: 'Pepperidge Farm',
+//    flavor: 'Cheddar',
+//    count: 2000
+//  };
+//  return food;
+
+
+  return {
     type: 'Goldfish',
     brand: 'Pepperidge Farm',
     flavor: 'Cheddar',
     count: 2000
   };
-
-  return food; //Modify ONLY this line
+; //Modify ONLY this line
   //end your code
 }
 
@@ -58,6 +67,8 @@ function MessageLog(user) {
 */
 //your code here
 
+//MessageLog.prototype.lastReceivedMessage() = function{ };
+
 //end your code
 
 /**
@@ -67,5 +78,9 @@ function MessageLog(user) {
 */
 
 //your code here
+var myLog = new MessageLog(BlackHatGuy);
+ myLog.logMessage('foo', 1);
+ myLog.logMessage('bar', 1);
+ myLog.logMessage('baz', 1);
 
 //end your code
