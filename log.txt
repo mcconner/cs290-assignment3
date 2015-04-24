@@ -22,6 +22,22 @@ Start: Thu, 16 Apr 2015 20:28:16 -0700
 End: Thu, 16 Apr 2015 21:28:17 -0700
 Tasks: I went back to the objects.js file and began working on the MessageLog functions more. I am still working on the logMessage method but I have made a lot of progress.
 
-Start: Thu, 17 Apr 2015 13:40:00 -0700
+Start: Fri, 17 Apr 2015 13:40:00 -0700
 End: Fri, 17 Apr 2015 14:27:22 -0700
 Tasks: I worked more on the MessageLog object and creating methods that work. I wrote out my design for the logMessage method on paper, then tried it in the assignment. After a bit of debugging, all of the tests pass!
+
+Start: Mon, 20 Apr 2015 19:30:00 -0700
+End: Mon, 20 Apr 2015 21:00:00 -0700
+Tasks: I went over the requirements of part 2 of the assignment and started watching lecture videos.
+
+Start: Tue, 21 Apr 2015 17:00:00 -0700
+End: Tue, 21 Apr 2015 20:00:00 -0700
+Tasks: I continued watching lecture videos, completing the readings for the week, and began working on part 2.
+
+Start: Wed, 22 Apr 2015 16:00:00 -0700
+End: Wed, 22 Apr 2015 22:00:00 -0700
+Tasks: I continued working on part 2. At the very end of this time, I was finally able to make a connection and access gists. I have had no luck with language.
+
+Start: Thu, 23 Apr 2015 08:30:00 -0700
+End: Thu, 23 Apr 2015 10:30:00 -0700
+Tasks: This morning, I was finally able to get gists to display in the console, but I can't get more then 1 to display on my page.
