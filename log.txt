@@ -54,3 +54,6 @@ Start: Sat, 25 Apr 2015 18:30:00 -0700
 End: Sat, 25 Apr 2015 20:00:00 -0700
 Tasks: I worked on cleaning up my code and trying to make it so that when an item is added to favorites, it no longer shows up in search results.
 
+Start: Sun, 26 Apr 2015 14:00:00 -0700
+End: Sun, 26 Apr 2015 15:45:00 -0700
+Tasks: I worked on cleaning up my code more and I got the language filtering to work.
