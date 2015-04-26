@@ -41,3 +41,16 @@ Tasks: I continued working on part 2. At the very end of this time, I was finall
 Start: Thu, 23 Apr 2015 08:30:00 -0700
 End: Thu, 23 Apr 2015 10:30:00 -0700
 Tasks: This morning, I was finally able to get gists to display in the console, but I can't get more then 1 to display on my page.
+
+Start: Fri, 24 Apr 2015 14:00:00 -0700
+End: Fri, 24 Apr 2015 22:00:00 -0700
+Tasks: I spent 8 hours working on this project today. I ran into some issues with adding to favorites and removing. Everytime something is removed from favorites, another favorites list is created (rather than having the new list replace the old). I am also only able to add one item to favorites at a time.
+
+Start: Sat, 25 Apr 2015 09:00:00 -0700
+End: Sat, 25 Apr 2015 10:30:00 -0700
+Tasks: I worked on fixing the add to favorites and remove from favorites buttons. I am now able to add multiple items to favorites and display them correctly. The remove button also works.
+
+Start: Sat, 25 Apr 2015 18:30:00 -0700
+End: Sat, 25 Apr 2015 20:00:00 -0700
+Tasks: I worked on cleaning up my code and trying to make it so that when an item is added to favorites, it no longer shows up in search results.
+
